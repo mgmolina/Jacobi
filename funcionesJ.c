@@ -56,7 +56,7 @@
 		//tomo como maximo error el valor almacenado en la posicion 0
 		float errorA=auxErr[0];
 		int i;
-
+		//DEBE SER EN VALOR AABSOLUTO!!!!!!
 		for(i=1;i<dim;i++){
 			//si algun valor en auxErr[i] es mayor que el error actual entonces éste valor es el nuevo error 
 			if(auxErr[i]>errorA){
